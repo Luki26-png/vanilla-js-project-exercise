@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-container {
+    border: 0.09rem solid gray;
+    border-radius: 0.4em;
+    box-shadow: 2px 1px 1px gray;
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#img-container {
+    display: flex;
+    justify-content: center;
+}
+
+#portrait-img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+#card-text {
+    text-align: center;
+    padding: 0.7em;
+}
+
+
+#card-text #card-header-container #job {
+    padding: 0.4em;
+    font-weight: 600;
+    color: #2796CB;
+}
+
+#card-text #review-text {
+    max-width: 40ch;
+    padding: 0.7em 0em;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+#quote {
+    color: #2796CB;
+    font-size: 1.1rem;
+}
+
+#button-and-arrow {
+    min-width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#button-and-arrow #btn {
+    background-color: transparent;
+    color: #2796CB;
+    border: 1px solid #2796CB;
+    padding: 0.3em 1em;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+#button-and-arrow #btn:hover {
+    background-color: #2796CB;
+    color: white;
+}
+
+#arrow-left,
+#arrow-right {
+    color: #2796CB;
+}
+
+#arrow-left:hover,
+#arrow-right:hover {
+    color: #145370;
+}
+
+#watermark {
+    position: absolute;
+    top: 10%;
+}
